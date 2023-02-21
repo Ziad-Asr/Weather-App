@@ -93,6 +93,9 @@ function App() {
                     if(index > 0){
                       return (<SummaryCard key={index} day={days} />)
                     }
+                    else {
+                      return (<div></div>)
+                    }
                   })}
                 </ul>
               </>
